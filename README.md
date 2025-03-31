@@ -115,7 +115,7 @@ sudo apt install yad network-manager iw aircrack-ng
 
 - Use the dropdowns in the GUI to select your desired interfaces and SSID
 - Internet remains connected via your internal card
-- The Alfa card is placed in monitor mode for sniffing
+- The network card is placed in monitor mode for sniffing
 - Works best with Debian-based systems such as Linux Mint and Kali
 
 ---
