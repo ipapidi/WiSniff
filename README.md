@@ -42,3 +42,5 @@ git clone https://github.com/ipapidi/WiSniff.git
 cd WiSniff
 chmod +x wisniff.sh
 ./wisniff.sh
+
+> WiSniff is designed for Debian-based Linux systems (tested on Linux Mint).
