@@ -4,7 +4,7 @@ Type=Application
 Name=WiSniff
 Comment=WiFi sniffing & monitor mode GUI
 Exec=sh -c "bash ~/WiSniff/wisniff.sh"
-Icon=/home/ioli/WiSniff/logo.png
+Icon=logo.png
 Terminal=false
 Categories=Network;Utility;
 
