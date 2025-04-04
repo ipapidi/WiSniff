@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" width="100" alt="WiSniff logo">
+  <img src="icon.png" width="100" alt="WiSniff logo">
 </p>
 
 <h1 align="center">WiSniff</h1>
