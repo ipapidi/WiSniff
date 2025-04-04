@@ -1,10 +1,9 @@
 [Desktop Entry]
-Version=1.0
+Version=1.1
 Type=Application
 Name=WiSniff
-Comment=WiFi sniffing & monitor mode GUI
+Comment=Monitor mode GUI
 Exec=sh -c "bash ~/WiSniff/wisniff.sh"
-Icon=logo.png
-Terminal=false
+Icon=icon.png
+Terminal=true
 Categories=Network;Utility;
-
