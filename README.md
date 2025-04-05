@@ -1,5 +1,6 @@
+
 <p align="center">
-  <img src="icon.png" width="100" alt="WiSniff logo">
+  <img src="icon.png" width="100" alt="WiSniff icon">
 </p>
 
 <h1 align="center">WiSniff</h1>
@@ -69,6 +70,38 @@ chmod +x wisniff.sh
 
 ---
 
+
+---
+
+## Add to Applications Menu
+
+To launch WiSniff from your Applications menu like any other app (e.g. Firefox or Terminal):
+
+1. Open a terminal in the WiSniff folder
+2. Make the script and launcher executable:
+
+```bash
+chmod +x wisniff.sh
+chmod +x WiSniff.desktop
+```
+
+3. Copy the launcher to your system's menu folder:
+
+```bash
+cp WiSniff.desktop ~/.local/share/applications/
+update-desktop-database ~/.local/share/applications
+```
+
+4. (Optional) Trust the launcher if needed (for Linux Mint/Nemo):
+
+```bash
+gio set ~/.local/share/applications/WiSniff.desktop "metadata::trusted" yes
+```
+
+---
+
+✅ You will now see **WiSniff** in your Applications menu, under **Network** or **Utilities**.  
+Double-click to launch it with full GUI and root access via `pkexec`.
 ## Requirements
 
 Install required packages:
@@ -92,15 +125,11 @@ sudo apt install yad network-manager iw aircrack-ng
     <td>Main script that launches the GUI</td>
   </tr>
   <tr>
-    <td><code>sniff-gui-yad.sh</code></td>
-    <td>YAD-based graphical interface logic</td>
-  </tr>
-  <tr>
     <td><code>WiSniff.desktop</code></td>
     <td>Launcher file for desktop/menu integration</td>
   </tr>
   <tr>
-    <td><code>logo.png</code></td>
+    <td><code>icon.png</code></td>
     <td>Custom icon used in the app menu</td>
   </tr>
   <tr>
