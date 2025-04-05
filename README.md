@@ -100,8 +100,6 @@ gio set ~/.local/share/applications/WiSniff.desktop "metadata::trusted" yes
 
 ---
 
-✅ You will now see **WiSniff** in your Applications menu, under **Network** or **Utilities**.  
-Double-click to launch it with full GUI and root access via `pkexec`.
 ## Requirements
 
 Install required packages:
